@@ -1,4 +1,4 @@
-# Data and codes for replicating "Preshool Class Size and Child Development: Evidence from a County-Level Follow-up Survey"
+# Data and codes for replicating "Preschool Class Size and Child Development: Evidence from a County-Level Follow-up Survey"
 
 Yongye Liu (HKUSTGZ), Po Yang (Peking University)
 
@@ -6,7 +6,7 @@ Aug 2024
 
 
 
-This README file provides an overview of the data and codes for replicating the empirical results in our paper "Preshool Class Size and Child Development: Evidence from a County-Level Follow-up Survey", together with the step-by-step instructions. The data and codes have been deposited in the author's GitHub repository. Please download all the materials, including:
+This README file provides an overview of the data and codes for replicating the empirical results in our paper "Preschool Class Size and Child Development: Evidence from a County-Level Follow-up Survey", together with the step-by-step instructions. The data and codes have been deposited in the author's GitHub repository. Please download all the materials, including:
 
 ```
 │ README.md
@@ -31,7 +31,7 @@ This README file provides an overview of the data and codes for replicating the
   PUER_table3_data.dta
 ```
 
-Note that we organize our code according to the data set used in the analysis instead of the order of tables and figures that appear in the paper. We make this arrangement because our analysis switches among different datasets frequently. Organizing the code by dataset reduces the repetitive operations and makes the flow clearer.
+Note that we organize our code according to the data set used in the analysis instead of the order of tables and figures that appear in the paper. We make this arrangement because our analysis switches among different datasets frequently. Organizing the code by dataset reduces the repetitive operations and clarifies the flow.
 
 ## 1 Step-by-Step Instructions for Replication
 
@@ -41,19 +41,19 @@ Our paper uses data from the project held by Prof. [Yingquan Song](https://ciefr
 
 ### 1.2 Software Preparation
 
-The file `0_master.do` depicts the steps to replicate our results. We use `Stata/SE 15.1` for data analysis. In addition to the standard Stata commands, we also use several user-written commands. Please type in Stata following commands to install them:
+The file `0_master.do` depicts the steps to replicate our results. We use `Stata/SE 15.1` for data analysis. In addition to the standard Stata commands, we also use several user-written commands. Please type in Stata the following commands to install them:
 
 ```Stata
 ssc install estout, replace
 ```
 
-### 1.3 Define the Local Paths
+### 1.3 Define the Local Paths
 
-One needs to prepare the following folders and define them as the local paths:
+One needs to prepare the following folders and define them as the local paths:
 
 * `$root`: global path of the whole project.
 
-* `$dofiles`: the folder containing all the code (do-les) for replication.
+* `$dofiles`: the folder containing all the code (do-files) for replication.
 
 * `$working_data`: the folder containing the analyzed data for our main analysis.
 
@@ -65,7 +65,7 @@ One needs to prepare the following folders and define them as the local paths:
 
 ### 1.4 Run the Codes in Order
 
-After the above preparations, one can execute the following `do-files` in order in the folder `dofiles` to replicate all the tables and gures in our paper. Table 1 provides detailed infomation on how to replicate our results. You can run the `0_master.do` to replicate our results directly.
+After the above preparations, one can execute the following `do-files` in order in the folder `dofiles` to replicate all the tables and figures in our paper. Table 1 provides detailed information on how to replicate our results. You can run the `0_master.do` to replicate our results directly.
 
 
 
